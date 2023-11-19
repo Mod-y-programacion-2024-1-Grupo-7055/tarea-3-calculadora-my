@@ -10,9 +10,7 @@ public class NodoRaiz extends NodoOperador {
         double r = der.evalua();
         if (r < 0) {
             throw new ArithmeticException("No se puede calcular la raíz cuadrada de un número negativo");
-        } else if (izq != null) {
-            throw new ArithmeticException("La raiz es una operacion unaria");
         }
-        return Math.sqrt(r);
+        return Math.sqrt(der.evalua());
     }
 }

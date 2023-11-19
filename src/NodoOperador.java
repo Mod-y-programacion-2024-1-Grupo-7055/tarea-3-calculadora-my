@@ -80,8 +80,9 @@ public abstract class NodoOperador implements CompositeEA{
     public String toString() {
         String operador = this instanceof NodoSuma ? " + "
                         : this instanceof NodoResta ? " - "
-                        : this instanceof NodoRaiz ? " sqrt " 
-                        : this instanceof NodoMultiplicacion ? " * " : " / ";
+                        : this instanceof NodoMultiplicacion ? " * " 
+                        : this instanceof NodoDivision ? " / " 
+                        : this instanceof NodoRaiz ? " % ": " / ";
 
         if (izq != null) {
             return "(" + izq + operador + der + ")";
@@ -112,7 +113,7 @@ public abstract class NodoOperador implements CompositeEA{
                     return new NodoMultiplicacion(null,null);
                 case "/":
                     return new NodoDivision(null,null);
-                case "sqrt":
+                case "%":
                     return new NodoRaiz(null,null);
                 case "(":
                     return new NodoParentesis();
