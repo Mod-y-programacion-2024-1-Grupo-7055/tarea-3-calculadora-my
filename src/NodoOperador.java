@@ -82,6 +82,8 @@ public abstract class NodoOperador implements CompositeEA{
                         : this instanceof NodoResta ? " - "
                         : this instanceof NodoMultiplicacion ? " * " 
                         : this instanceof NodoDivision ? " / " 
+                        
+                        : this instanceof NodoSeno ? "s"
                         : this instanceof NodoRaiz ? " % ": " / ";
 
         if (izq != null) {
@@ -113,6 +115,8 @@ public abstract class NodoOperador implements CompositeEA{
                     return new NodoMultiplicacion(null,null);
                 case "/":
                     return new NodoDivision(null,null);
+                case "s": 
+                    return new NodoSeno(null,null);
                 case "%":
                     return new NodoRaiz(null,null);
                 case "(":
