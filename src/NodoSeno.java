@@ -2,7 +2,7 @@ public class NodoSeno extends NodoOperador {
 
     public NodoSeno(CompositeEA izq, CompositeEA der) {
         super(izq, der);
-        precedence = 2; // Ajusta la precedencia según la jerarquía de operadores
+        precedence = 3; // Ajusta la precedencia según la jerarquía de operadores
     }
 
     @Override
