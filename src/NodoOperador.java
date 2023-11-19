@@ -115,7 +115,9 @@ public abstract class NodoOperador implements CompositeEA{
                 case "(":
                     return new NodoParentesis();
                 case "sqrt":
-                    return new NodoRaiz(null, null);
+                    NodoOperador p = new NodoRaiz(null,null);
+                    p.precedence=anteriorEsOperador? 3:3;
+                    return p;
                 default:
                     throw new ErrorDeSintaxisException("Error de Sintáxis");
             }
