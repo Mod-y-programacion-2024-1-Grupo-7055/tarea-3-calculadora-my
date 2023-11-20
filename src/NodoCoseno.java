@@ -8,7 +8,7 @@ public class NodoCoseno extends NodoOperador {
     @Override
     public double evalua() {
         if (izq != null) {
-            throw new ArithmeticException("El seno es una operacion unaria");
+            throw new ArithmeticException("El coseno es una operacion unaria");
         }
         return Math.cos(der.evalua());
     }
