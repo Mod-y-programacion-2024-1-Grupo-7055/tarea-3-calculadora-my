@@ -9,8 +9,9 @@ Este repositorio contiene el código base para la tarea 3.
 
 ## Para correr el programa "Calculadora" 
 - Ubicarse en la carpeta "Tarea-3-Calculadora"
-- Compilar con el comando `javac Calculadora.java``
-- 
+- Compilar con el comando `javac src/*.java`
+- Entrar a "src" con `cd src/`
+- Correr el programa con el comando `java Calculadora`
 
 ## Archivos agregados 
 - NodoRaiz.java
