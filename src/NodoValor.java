@@ -14,8 +14,8 @@ public class NodoValor implements CompositeEA {
     }
 
     /**
-     * La evaluación de estoso nodos comprende en únicamente devolver el valor
-     * que guardan.
+     * La evaluación de estos nodos comprende en únicamente devolver el valor que guardan.
+     * 
      *
      * @return el valor del nodo.
      */

@@ -5,7 +5,7 @@
  */
 
 /**
- *
+ * Clase que arroja al usuario que tipo de error aritmético cometio. 
  * @author Alejandro Hernández Mora <alejandrohmora@ciencias.unam.mx>
  */
 public class ErrorAritmeticoException extends Exception{

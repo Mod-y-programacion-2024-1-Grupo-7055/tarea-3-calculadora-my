@@ -6,7 +6,7 @@
 
 
 /**
- *
+ * Clase que arroja que tipo de error de Sintaxis cometió. 
  * @author Alejandro Hernández Mora <alejandrohmora@ciencias.unam.mx>
  */
 public class ErrorDeSintaxisException extends Exception {

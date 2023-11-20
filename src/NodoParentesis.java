@@ -6,7 +6,7 @@
 
 
 /**
- *
+ * Clase que representa operaciones con paréntesis. 
  * @author Alejandro Hernández Mora <alejandrohmora@ciencias.unam.mx>
  */ 
 public class NodoParentesis extends NodoOperador {

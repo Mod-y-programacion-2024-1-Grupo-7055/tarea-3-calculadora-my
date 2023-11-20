@@ -6,7 +6,7 @@
 
 
 /**
- *
+ * Clase que representa la operación de la División. 
  * @author Alejandro Hernández Mora <alejandrohmora@ciencias.unam.mx>
  */
 public class NodoDivision extends NodoOperador {

@@ -3,11 +3,27 @@
 # Tarea-3-Calculadora
 Este repositorio contiene el código base para la tarea 3.
 
-{-//Elimina estas líneas de código en tu commit final
-La entrega de esta tarea es en equpos de a lo más dos integrantes.
+## Equipo: MY
+- Flores Cid Marco | marco_flores_cid@ciencias.unam.mx | 317340000
+- Gytán Pazos Yelab Darío | yelab@ciencias.unam.mx | 115000658
 
-Modifica este archivo para que cumpla los lineamientos de entraga de tareas del curso.
+## %%%%%%%%%%%% Para correr el programa "Calculadora" %%%%%%%%%%%%%%%%
+- Ubicarse en la carpeta "Tarea-3-Calculadora"
+- Compilar con el comando `javac Calculadora.java``
+- 
 
-Asegurate de que este documento especifique los cambios al repositorio. Es decir qué archivos agregaste y cuáles modificaste.
-//Elimina estas lineas de código en tu commit final
--}
+## %%%%%%%%%%%% Archivos agregados %%%%%%%%%%%%%%%%
+- NodoRaiz.java
+- NodoSeno.java
+- NodoCoseno.java
+- NodoTangente.java
+
+## %%%%%%%%%%%% Archivos modificados %%%%%%%%%%%%%%%%
+- Calculadora.java
+- Compilador.java
+- NodoOperador.java
+
+## %%%%%%%%%%%% Para ver la documentación %%%%%%%%%%%%%%%%
+- Ubicarse en la carpeta "Tarea-3-Calculadora" con `pwd`
+- Ir a la carpeta "docs" con `cd docs/`
+- Abrir el archivo "allclasses-index.html" con `firefox allclasses-index.html`

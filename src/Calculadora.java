@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 
 
 /**
- *
+ *Clase diseñada para simular una Calculadora donde el usuario puede poner el prompt que quiera.
  * @author Alejandro Hernández Mora <alejandrohmora@ciencias.unam.mx>
  */
 public class Calculadora {

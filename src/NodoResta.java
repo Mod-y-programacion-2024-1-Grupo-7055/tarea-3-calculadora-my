@@ -2,7 +2,7 @@
 
 /**
  * 
- * 
+ * Clase que representa la operación de la Resta.
  * @author Alejandro Hernández Mora <alejandrohmora@ciencias.unam.mx>
  */
 public class NodoResta extends NodoOperador {

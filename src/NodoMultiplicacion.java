@@ -6,7 +6,7 @@
 
 
 /**
- *
+ * Clase que representa la operación de la Multiplicación.
  * @author Alejandro Hernández Mora <alejandrohmora@ciencias.unam.mx>
  */
 public class NodoMultiplicacion extends NodoOperador {
