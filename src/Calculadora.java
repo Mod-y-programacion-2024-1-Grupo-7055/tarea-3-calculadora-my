@@ -502,6 +502,7 @@ public class Calculadora extends javax.swing.JFrame {
                 StringTokenizer lexemas = comp.analisisLexico(cadena.getText());
                 CompositeEA nodo = comp.arbolDeAnalisisSintactico(lexemas);
                 Resultado.setText(String.valueOf(nodo.evalua()));
+                Expresion.setText(String.valueOf(nodo));
             } catch (ErrorDeSintaxisException ex) {
                 Logger.getLogger(Calculadora.class.getName()).log(Level.SEVERE, null, ex);
             }
