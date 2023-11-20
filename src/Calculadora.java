@@ -26,8 +26,9 @@ public class Calculadora extends javax.swing.JFrame {
         comp= new Compilador();
         StringTokenizer lexemas = comp.analisisLexico(cadena);
         CompositeEA nodo = comp.arbolDeAnalisisSintactico(lexemas);
-        System.out.println(nodo);
-        System.out.println(nodo.evalua());}
+        // System.out.println(nodo);
+        // System.out.println(nodo.evalua());
+    }
 
 
         public Calculadora() {
