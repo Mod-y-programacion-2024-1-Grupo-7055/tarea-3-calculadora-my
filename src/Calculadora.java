@@ -533,7 +533,7 @@ public class Calculadora extends javax.swing.JFrame {
             }
             //</editor-fold>
     
-            
+
         }
     
         // Variables declaration - do not modify                     
