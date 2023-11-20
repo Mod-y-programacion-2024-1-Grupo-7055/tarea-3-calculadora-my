@@ -488,7 +488,11 @@ public class Calculadora extends javax.swing.JFrame {
             // TODO add your handling code here:
             Expresion.setText("");
             Resultado.setText("");
-        }                                         
+        } 
+        private void DivActionPerformed(java.awt.event.ActionEvent evt) {                                    
+            // TODO add your handling code here:
+            Expresion.setText(Expresion.getText()+"/");
+        }                                        
     
         private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {                                          
             try {
@@ -501,12 +505,7 @@ public class Calculadora extends javax.swing.JFrame {
             } catch (ErrorDeSintaxisException ex) {
                 Logger.getLogger(Calculadora.class.getName()).log(Level.SEVERE, null, ex);
             }
-        }                                         
-    
-        private void DivActionPerformed(java.awt.event.ActionEvent evt) {                                    
-            // TODO add your handling code here:
-            Expresion.setText(Expresion.getText()+"/");
-                                       
+                                                                      
         /**
          * @param args the command line arguments
          */
