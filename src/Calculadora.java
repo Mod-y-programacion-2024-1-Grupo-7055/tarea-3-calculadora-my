@@ -385,125 +385,124 @@ public class Calculadora extends javax.swing.JFrame {
         }// </editor-fold>                        
     
         private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"5");
         }                                         
     
         private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"2");
         }                                         
     
         private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"3");
         }                                         
     
         private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"*");
         }                                        
     
         private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"4");
         }                                        
     
         private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"0");
         }                                         
     
         private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"1");
         }                                         
     
         private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"6");
         }                                         
     
         private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"7");
         }                                        
     
         private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"8");
         }                                        
     
         private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"9");
         }                                        
     
         private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+".");
         }                                         
     
         private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"-");
         }                                         
     
         private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"+");
         }                                         
     
         private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"r");
         }                                        
     
         private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"t");
         }                                        
     
         private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"c");
         }                                        
     
         private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"s");
         }                                        
     
         private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"(");
         }                                         
     
         private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+")");
             
         }                                         
     
         private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-            // TODO add your handling code here:
+        
             Expresion.setText("");
             Resultado.setText("");
         } 
         private void DivActionPerformed(java.awt.event.ActionEvent evt) {                                    
-            // TODO add your handling code here:
+        
             Expresion.setText(Expresion.getText()+"/");
         }                                        
     
         private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {                                          
             try {
-                // TODO add your handling code here:
+            
                 JLabel cadena = Expresion;
                 comp= new Compilador();
                 StringTokenizer lexemas = comp.analisisLexico(cadena.getText());
                 CompositeEA nodo = comp.arbolDeAnalisisSintactico(lexemas);
                 Resultado.setText(String.valueOf(nodo.evalua()));
-                Expresion.setText(String.valueOf(nodo));
             } catch (ErrorDeSintaxisException ex) {
                 Logger.getLogger(Calculadora.class.getName()).log(Level.SEVERE, null, ex);
             }
